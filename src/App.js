@@ -9,12 +9,12 @@ class App extends Component {
   constructor(props) {
     super(props);
     var config = {
-      apiKey: "AIzaSyA7FGUFVRwDRjnZ8ke5u6O5XhYzxViOqp4",
-      authDomain: "react-project-test-1c5c7.firebaseapp.com",
-      databaseURL: "https://react-project-test-1c5c7.firebaseio.com",
-      projectId: "react-project-test-1c5c7",
-      storageBucket: "react-project-test-1c5c7.appspot.com",
-      messagingSenderId: "420809384933"
+      apiKey: "",
+      authDomain: "",
+      databaseURL: "",
+      projectId: "",
+      storageBucket: "",
+      messagingSenderId: ""
     };
     try {
       firebase.initializeApp({
